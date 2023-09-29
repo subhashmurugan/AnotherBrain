@@ -54,7 +54,7 @@ $\lstinputlisting{/etc/passwd}$
 
 
 ~~~
-wfuzz -c -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 --hw=545  -H "Host: FUZZ.topology.htb" http://topology.htb
+wwfuzz -c -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 --hw=545  -H "Host: FUZZ.topology.htb" http://topology.htb
 ~~~
 
 
